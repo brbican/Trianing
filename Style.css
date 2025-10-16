@@ -1,0 +1,113 @@
+body {
+      background: #f4f7fa;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .register-container {
+      background: #fff;
+      padding: 32px 24px;
+      border-radius: 14px;
+      box-shadow: 0 8px 32px rgba(44,62,80,0.10);
+      max-width: 380px;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      color: #2563eb;
+      margin-bottom: 28px;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #222;
+      letter-spacing: 0.2px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"] {
+      width: 90%;
+      padding: 12px 12px;
+      margin-bottom: 18px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 1rem;
+      background: #f9fafb;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    form input:focus {
+      border-color: #2563eb;
+      background: #fff;
+      outline: none;
+    }
+    .checkbox-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 0.98rem;
+      color: #444;
+    }
+    .checkbox-row input[type="checkbox"] {
+      margin-right: 8px;
+      accent-color: #2563eb;
+    }
+    button[type="submit"] {
+      width: 100%;
+      padding: 13px;
+      background: linear-gradient(90deg, #2563eb 60%, #38bdf8 100%);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.18s, transform 0.1s;
+      margin-top: 8px;
+      box-shadow: 0 2px 8px rgba(44,62,80,0.06);
+    }
+    button[type="submit"]:hover {
+      background: linear-gradient(90deg, #1d4ed8 60%, #0ea5e9 100%);
+      transform: translateY(-2px) scale(1.01);
+    }
+    #container-signup span {
+        font-size: 13px;
+        
+    }
+    #container-signup a {
+
+        text-decoration: none;
+        font-size: 14px;
+        display: inline;
+        transition: border 0.3s;
+        
+    }
+    #container-signup {
+  
+     text-align: center;
+
+    }
+     #container-signup a:hover {
+  
+    border-bottom: 2px solid #1d4ed8;
+     color:#1d4ed8;
+
+    }
+    @media (max-width: 500px) {
+      .register-container {
+        padding: 16px 4px;
+        border-radius: 0;
+        box-shadow: none;
+        max-width: 100vw;
+      }
+      h1 {
+        font-size: 1.3rem;
+      }
+
+
+    }

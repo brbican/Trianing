@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+  <div class="register-container">
+    <h1>Register</h1>
+    <form action="#" method="post" autocomplete="on">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required autocomplete="name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required autocomplete="email">
+
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required autocomplete="username">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required autocomplete="new-password">
+
+      <label for="confirm">Confirm Password</label>
+      <input type="password" id="confirm" name="confirm" required autocomplete="new-password">
+
+      <div class="checkbox-row">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms" style="font-weight:normal; margin:0; color:#555;">I agree to the terms and conditions</label>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
